@@ -55,6 +55,7 @@
             <scriptCode><![CDATA[
 outNode = kwargs["node"]
 outNodeName = str(outNode)
+outNodePos = outNode.position()
 inNodeName = ""
 parentPath = outNode.parent()
 parentPath = parentPath.path()
@@ -65,6 +66,7 @@ else:
 	inNodeName = "IN_" + outNodeName
 inNodeName = inNodeName.upper()
 objMerge = parent.createNode('object_merge', inNodeName)
+objMerge.setPosition(outNodePos)
 moveValue = (0, -1)
 objMerge.move(moveValue)
 objMerge.parm('objpath1').set(objMerge.relativePathTo(outNode))
