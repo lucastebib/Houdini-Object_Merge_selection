@@ -1,2 +1,8 @@
 # Houdini-Object_Merge_selection
-Creates an Object Merge from the selected node. Right click context
+Creates an Object Merge from the selected node. Right click context.
+
+Add the file to your Houdini preferences folder.
+
+Only tested with Python 3, will test later on Python 2.
+
+![image](https://user-images.githubusercontent.com/81519814/165655078-c5f99795-55ef-4bcc-bb44-d8d31e4a18af.png)
