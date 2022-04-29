@@ -3,7 +3,7 @@ Creates an Object Merge from the selected node. Right click context.
 
 Add the file to your Houdini preferences folder:
 
-Windows:
+• Windows:
 >C:\Users\My Documents\Documents\houdiniXX.X\
 
 • Linux:
