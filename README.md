@@ -1,4 +1,4 @@
-# Houdini-Object_Merge_selection
+# Houdini - Object Merge Selection
 Creates an Object Merge from the selected node. Right click context.
 
 Add the file to your Houdini preferences folder:
